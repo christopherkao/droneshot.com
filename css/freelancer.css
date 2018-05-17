@@ -631,6 +631,15 @@ header {
   color: white;
 }
 
+#use-cases {
+  background: #233140;
+  color: white;
+}
+
+#use-cases a {
+  color: white;
+}
+
 #download {
   background: #233140;
   color: white;
