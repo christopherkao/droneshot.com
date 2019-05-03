@@ -196,7 +196,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #A85253;
+  background: #567B8E;
   color: white;
 }
 @media (max-width: 767px) {
@@ -553,7 +553,7 @@ div#maincontent {
 }
 
 .value {
-  background: #567B8E;
+  background: #2C3E50;
   color: white;
 }
 
