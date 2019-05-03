@@ -78,7 +78,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  padding-top: 50px;
+  padding-top: 0px;
   /*background: #A85253;*/
 }
 header .container {
@@ -214,7 +214,6 @@ section.success {
 .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
   margin: 0 auto;
 }
 .portfolio-item .portfolio-link .caption {
