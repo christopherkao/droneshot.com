@@ -79,6 +79,7 @@ header {
   background-size: cover;
   color: white;
   padding-top: 0px;
+  width: 100%;
   /*background: #A85253;*/
 }
 header .container {
@@ -100,7 +101,11 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 999px) {
+/*    Make header taller on tablets*/
+  header {
+    height: 800px
+  }
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
@@ -184,10 +189,29 @@ header .intro-text .skills {
   }
 }
 @media (max-width: 767px) {
+/*    Make cover photo not as tall on mobile */
+    header {
+        height: 600px
+    }
   .navbar-custom .navbar-brand {
     font-size: 1.1em;
   }
 }
+
+/*Make cover photo even taller on laptop and small desktops */
+@media (min-width: 1000px) and (max-width: 1680px) {
+    header {
+        height: 1000px
+    }
+}
+
+/*Make cover photo even taller on large desktops */
+@media (min-width: 1681px) {
+    header {
+        height: 1400px
+    }
+}
+
 section {
   padding: 100px 0;
 }
@@ -597,10 +621,6 @@ h5 {
 
 iframe {
   border: 0px;
-}
-
-header {
-  background-color: #A85253;
 }
 
 #aerial-panoramas { 
