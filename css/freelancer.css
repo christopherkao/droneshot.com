@@ -202,7 +202,7 @@ header .intro-text .skills {
 @media (max-width: 767px) {
 /*    Make cover photo not as tall on mobile */
     header {
-        height: 600px
+        height: 700px
     }
   .navbar-custom .navbar-brand {
     font-size: 1.1em;
