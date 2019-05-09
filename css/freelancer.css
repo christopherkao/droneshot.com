@@ -71,7 +71,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: url("../img/cover-photo.jpg");
+/*  background: url("../img/cover-photo.jpg");*/
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -80,6 +80,7 @@ header {
   color: white;
   padding-top: 0px;
   width: 100%;
+  overflow: hidden;
   /*background: #A85253;*/
 }
 header .container {
@@ -89,6 +90,19 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+}
+header video {
+/*    display: block;*/
+/*    margin: 0 auto 20px;*/
+/*    width: "100%";*/
+/*    height: 1200px;*/
+    height: 100%;
+/*    position: fixed;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    min-width: 100%;*/
+/*    min-height: 100%;*/
+/*    transform: translateX(calc((100% - 100vw) / 2));*/
 }
 header .intro-text .name {
   display: block;
