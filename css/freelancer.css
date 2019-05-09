@@ -92,14 +92,15 @@ header img {
   margin: 0 auto 20px;
 }
 header video {
+    z-index: -1; /* This was the trick to get the video in the back! Yes! */
     height: 100%;
 /*    object-fit: contain;*/
-/*    position: fixed;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    min-width: 100%;*/
-/*    min-height: 100%;*/
-/*    transform: translateX(calc((100% - 100vw) / 2));*/
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
 }
 header .intro-text .name {
   display: block;
