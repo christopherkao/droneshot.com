@@ -94,7 +94,6 @@ header img {
 header video {
     z-index: -1; /* This was the trick to get the video in the back! Yes! */
     height: 100%;
-/*    object-fit: contain;*/
     position: fixed;
     right: 0;
     bottom: 0;
