@@ -221,16 +221,16 @@ header .intro-text .skills {
         height: 1400px
     }
 }
-/*@media screen and (max-aspect-ratio: 1920/1080) {*/
-/*    header > video {*/
-/*        height: 100%;*/
-/*    }*/
-/*}*/
-/*@media screen and (min-aspect-ratio: 1920/1080) {*/
-/*    header > video {*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
+@media screen and (max-aspect-ratio: 1920/1080) {
+    header > video {
+        height: 100%;
+    }
+}
+@media screen and (min-aspect-ratio: 1920/1080) {
+    header > video {
+        width: 100%;
+    }
+}
 section {
   padding: 100px 0;
 }
