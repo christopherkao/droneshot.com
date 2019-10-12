@@ -241,7 +241,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #567B8E;
+  background: #A85253;
   color: white;
 }
 @media (max-width: 767px) {
@@ -597,7 +597,7 @@ div#maincontent {
 }
 
 .value {
-  background: #2C3E50;
+  background: #567B8E;
   color: white;
 }
 
@@ -636,6 +636,7 @@ h5 {
 
 .logos img {
   max-width: 150px;
+  max-height: 100px;
   padding-right: 15px;
   padding-bottom: 5px;
 }
