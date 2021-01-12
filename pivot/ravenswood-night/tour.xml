@@ -79,16 +79,16 @@
 
 
 	
-	<scene name="scene_ravenswood-night" title="ravenswood-night" onstart="" thumburl="panos/ravenswood-night.tiles/thumb.jpg" lat="37.47081083" lng="-122.13187500" heading="0.0">
+	<scene name="scene_Ravenswood_Business_District_Night" title="Ravenswood Business District Night" onstart="" thumburl="panos/Ravenswood_Business_District_Night.tiles/thumb.jpg" lat="37.47081083" lng="-122.13187500" heading="0.0">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/ravenswood-night.tiles/preview.jpg" />
+		<preview url="panos/Ravenswood_Business_District_Night.tiles/preview.jpg" />
 
 		<image>
-			<cube url="panos/ravenswood-night.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1152,2176,4352,8704" />
+			<cube url="panos/Ravenswood_Business_District_Night.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1152,2176,4352,8704" />
 		</image>
 
 	</scene>
